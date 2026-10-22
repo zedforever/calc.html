@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<title>Javascript calculator</title>
+
+<script>
+function add() {
+let a = document.getElementById("fn").value;
+let b = document.getElementById("sn").value;
+let c = Number(a) + Number(b);
+document.getElementById("ans").innerHTML = c;
+}
+
+</script>
+</head>
+<body>
+<h3>This is a practive JS document.</h3>
+
+<p>First number? <input id="fn"> <br>
+Second number? <input id="sn"> <br>
+<button onclick="add()">+</button>
+</body>
+</html>
